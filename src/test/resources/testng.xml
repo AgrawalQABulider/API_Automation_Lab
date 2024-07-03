@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Api reqes lab">
+	
+	<listeners>
+		<listener class-name="ExtentReportListener.ExtentReportListener"></listener>
+	</listeners>
+	
+	<test name="Sauce labs test suite">
+
+<classes>
+			<class name="in.reqes.qa.apitestcases.HTTPRequestPostPut">	</class>
+
+			
+
+			
+
+	</classes>
+	</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T18:42:24 CEST" name="Api reqes lab" finished-at="2024-07-03T18:42:27 CEST" duration-ms="2952">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T18:42:24 CEST" name="Sauce labs test suite" finished-at="2024-07-03T18:42:27 CEST" duration-ms="2952">
+      <class name="in.reqes.qa.apitestcases.HTTPRequestPostPut">
+        <test-method signature="createUser()[pri:0, instance:in.reqes.qa.apitestcases.HTTPRequestPostPut@2794eab6]" started-at="2024-07-03T18:42:24 CEST" name="createUser" finished-at="2024-07-03T18:42:27 CEST" duration-ms="2309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getUser()[pri:1, instance:in.reqes.qa.apitestcases.HTTPRequestPostPut@2794eab6]" started-at="2024-07-03T18:42:27 CEST" name="getUser" finished-at="2024-07-03T18:42:27 CEST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="UpdateUser()[pri:3, instance:in.reqes.qa.apitestcases.HTTPRequestPostPut@2794eab6]" started-at="2024-07-03T18:42:27 CEST" name="UpdateUser" finished-at="2024-07-03T18:42:27 CEST" depends-on-methods="in.reqes.qa.apitestcases.HTTPRequestPostPut.createUser" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+      </class> <!-- in.reqes.qa.apitestcases.HTTPRequestPostPut -->
+    </test> <!-- Sauce labs test suite -->
+  </suite> <!-- Api reqes lab -->
+</testng-results>
